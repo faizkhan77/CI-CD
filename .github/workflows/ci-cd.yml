@@ -23,10 +23,10 @@ jobs:
       # 3️⃣ Build Docker image
       - name: Build Backend Image
         run: |
-          docker build -t yourusername/mini-backend:1.0.0 -t yourusername/mini-backend:latest .
+          docker build -t faizkhan7/mini-backend:1.0.0 -t faizkhan7/mini-backend:latest .
 
       # 4️⃣ Push Docker image
       - name: Push Image
         run: |
-          docker push yourusername/mini-backend:1.0.0
-          docker push yourusername/mini-backend:latest
+          docker push faizkhan7/mini-backend:1.0.0
+          docker push faizkhan7/mini-backend:latest
